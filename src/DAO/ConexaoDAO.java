@@ -11,7 +11,7 @@ public class ConexaoDAO {
             //Reconhecendo biblioteca Mysql
             Class.forName("com.mysql.jdbc.Driver");
             //abrindo conexao
-            connSistema = DriverManager.getConnection("jdbc:mysql://localhost:3306/bdsistema","root","225544vi");            
+            connSistema = DriverManager.getConnection("jdbc:mysql://localhost:3306/bdsistema","root","");            
         }catch(Exception erro){
             //construindo msg de erro
             String msg = "Falha na abertura da conexão.\n "
